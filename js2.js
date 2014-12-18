@@ -1,5 +1,7 @@
 $(document).ready(function () {
-for (var n = 1; n <= 100; n++) {
+    var ans = prompt("Put in a number");
+
+for (var n = 1; n <= +ans; n++) {
     var mesg = n;
     if (n % 15 == 0) {
         mesg = "fizzbuzz";
