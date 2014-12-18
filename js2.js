@@ -11,6 +11,6 @@ for (var n = 1; n <= 100; n++) {
         mesg = "buzz";
     }
     
-    $("p").append("<p>" + mesg + "</p>");
+    $("ul").append("<li>" + mesg + "</li>");
 }
 });
